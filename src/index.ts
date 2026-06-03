@@ -5,7 +5,7 @@
 export {
   HistoryModalProvider,
   useHistoryModals,
-  HistoryModalContext, 
+  HistoryModalContext,  
 } from "./HistoryModalContext";
 export type {
   ActiveModal,
