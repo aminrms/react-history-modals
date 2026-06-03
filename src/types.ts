@@ -1,4 +1,6 @@
 // src/types.ts
+import type { ReactNode } from "react";
+
 export interface ActiveModal {
   id: string;
   data?: Record<string, any>;
@@ -12,5 +14,5 @@ export interface HistoryModalContextType {
 }
 
 export interface HistoryModalProviderProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }

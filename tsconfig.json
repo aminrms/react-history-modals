@@ -19,6 +19,6 @@
       "@/*": ["src/*"] // If you want to use absolute paths in your package source
     }
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
