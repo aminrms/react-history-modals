@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2015", // Or "es2020" for more modern environments
+    "target": "es2015",
     "module": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "jsx": "react-jsx", // For React 17+ and Next.js, allows new JSX transform
+    "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -11,12 +11,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "declaration": true, // Generate declaration files (.d.ts)
-    "declarationDir": "dist/types", // Output declarations to 'dist/types'
-    "outDir": "dist", // Output compiled JavaScript to 'dist'
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist",
+    "rootDir": "src",
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"] // If you want to use absolute paths in your package source
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*"],
